@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  padding: 5.75rem 1.25rem;
+}
+
+.container {
+  max-width: 69.375rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container--720 {
+  max-width: 40rem;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero__content-left {
+  background: linear-gradient(180deg, #9dff95 0%, #5bc4ff 100%);
+  max-width: 29.0625rem;
+  width: 100%;
+  height: 29.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.375rem;
+}
+
+.hero__content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  max-width: 29.0625rem;
+}
+
+.hero__content-title {
+  font-size: 3.125rem;
+  line-height: 140%;
+}
+
+.hero__content-paragraph {
+  font-size: 1.125rem;
+  line-height: 136.7%;
+}
+
+.hero__content-button {
+  border: 1px solid #000000;
+  border-radius: 6.25rem;
+  background: #000;
+  color: white;
+  padding: 1.375rem 4.375rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 136.7%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero__content-button:hover {
+  background: white;
+  color: #000;
+}
+
+.hero__content-button--secondary {
+  padding: 0.75rem 3.75rem;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 60%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+.hero__content-button--secondary:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(101, 10, 115, 1) 0%,
+    rgba(87, 199, 195, 1) 60%,
+    rgba(184, 11, 11, 1) 100%
+  );
+}
+
+.abilities__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4.375rem;
+  align-items: center;
+}
+
+.header-2 {
+  font-size: 2.5rem;
+  line-height: 140%;
+}
+
+.abilities__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.abilities__list-item {
+  display: flex;
+  gap: 2.125rem;
+}
+
+.abilities__list-item-number {
+  border: 1px solid black;
+  border-radius: 1.25rem;
+  width: 4.8125rem;
+  height: 4.8125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abilities__list-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6875rem;
+}
+
+.header-3 {
+  font-size: 1.875rem;
+}
+
+.abilities__list-item-description {
+  font-size: 1.125rem;
+  line-height: 136.7%;
+}
