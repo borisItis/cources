@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="./styles/modal.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__content-title">Юджин</h1>
+          <button class="hero__content-button">Открыть</button>
+        </div>
+        <p class="hero__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+          distinctio id quo porro perferendis amet. Beatae, similique quam
+          voluptates quasi placeat, voluptatibus consequuntur libero officiis
+          sapiente ad quisquam sunt laudantium.
+        </p>
+        <img src="./images/eugene.webp" alt="" class="hero__image" />
+      </div>
+    </section>
+    <div class="modal modal--hidden">
+      <form class="modal__content">
+        <button class="modal__close"></button>
+        <div class="modal__area">
+          <label class="modal__area-label" for="inputTitle">Заголовок</label>
+          <input
+            class="modal__area-input"
+            type="text"
+            name=""
+            id="inputTitle"
+          />
+        </div>
+        <div class="modal__area">
+          <label class="modal__area-label" for="description">Описание</label>
+          <textarea
+            class="modal__area-textarea"
+            name=""
+            id="description"
+          ></textarea>
+        </div>
+        <button class="modal__area-button">Обновить</button>
+      </form>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>
